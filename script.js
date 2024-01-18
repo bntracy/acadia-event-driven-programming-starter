@@ -19,5 +19,10 @@ function handlePotatoClick() {
     // if I want more, there are ways, we'll get to them...
 }
 
+function handleUnicornClick() {
+    let theDivIWantToAddTo = document.querySelector('div');
+    theDivIWantToAddTo.innerText = 'unicorn';
+}
+
 // Will call onReady() when the page loads.
 onReady()
